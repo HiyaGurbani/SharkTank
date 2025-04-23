@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="#001f3f"/>  <!-- Dark blue -->
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/ocean_bg"
+            android:gravity="fill"/>
+    </item>
+</layer-list>

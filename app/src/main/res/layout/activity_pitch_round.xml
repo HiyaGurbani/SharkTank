@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/st3">
+
+    <!-- Display the selected idea -->
+    <TextView
+        android:id="@+id/tvSelectedIdea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Idea"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+    <!-- Round indicator -->
+    <TextView
+        android:id="@+id/tvRoundStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Round 1 of 3"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+    <!-- Display pitch round buttons -->
+    <Button
+        android:id="@+id/btnPitch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/pitch_button"
+        android:backgroundTint="#F6F3F3"
+        android:padding="15dp"
+        android:text="Pitch Option 1"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnPitch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pitch Option 2"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/pitch_button" />
+
+    <Button
+        android:id="@+id/btnPitch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pitch Option 3"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/pitch_button" />
+
+
+    <!-- Next round button -->
+    <Button
+        android:id="@+id/btnNextRound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Round"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:background="@drawable/rounded_button" />
+
+</LinearLayout>

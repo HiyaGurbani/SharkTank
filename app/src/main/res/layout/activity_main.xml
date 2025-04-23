@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/shark_tank_bg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Shark Tank!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to enter a full idea or just a field?"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnIdea"
+        android:text="I have a full idea"
+        android:backgroundTint="@color/colorWhite"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnField"
+        android:text="I just have a field"
+        android:backgroundTint="@color/colorWhite"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

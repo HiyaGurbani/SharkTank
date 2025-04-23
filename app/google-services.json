@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701610983095",
+    "project_id": "shark-tank-d2c30",
+    "storage_bucket": "shark-tank-d2c30.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701610983095:android:dd109a6d6f5db16ff29732",
+        "android_client_info": {
+          "package_name": "com.example.sharktank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Hv9M5CCvTpThSBfPpG26J9ldGgAppv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

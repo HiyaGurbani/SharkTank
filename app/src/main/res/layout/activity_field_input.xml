@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:scrollbars="vertical"
+    android:background="@drawable/st1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a Field or Industry"
+        android:textColor="#18629D"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etField"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:hint="e.g., Health, Education, Tech"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnGenerateIdeas"
+        android:text="Get Startup Ideas"
+        android:backgroundTint="#18629D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutIdeas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

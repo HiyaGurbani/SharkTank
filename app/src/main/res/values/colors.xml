@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorRed">#FFFF0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="purpleDark">#271842</color>
+    <color name="yellowLight">#D3D38B</color>
+
+    <!-- New colors for Shark Tank Theme -->
+    <color name="blue">#0077B6</color>  <!-- Deep Blue -->
+    <color name="green">#2D6A4F</color> <!-- Investor Green -->
+    <color name="yellow">#FFC300</color> <!-- Gold Yellow -->
+    <color name="backgroundGray">#F4F4F4</color> <!-- Light Gray Background -->
+    <color name="buttonDark">#1B263B</color> <!-- Dark Blue for Buttons -->
+</resources>

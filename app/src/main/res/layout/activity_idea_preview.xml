@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/st2">
+
+    <TextView
+        android:id="@+id/tvYourIdea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Selected Idea"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvIdeaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(idea will be shown here)"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnStartPitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        android:textColor="@color/blue"
+        android:text="Start Pitch Round" />
+</LinearLayout>

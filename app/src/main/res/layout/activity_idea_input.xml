@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/st1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Startup Idea"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#18629D"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etIdea"
+        android:hint="e.g., AI tool that helps students learn faster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/btnStartPitch"
+        android:text="Start Pitching"
+        android:backgroundTint="#18629D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

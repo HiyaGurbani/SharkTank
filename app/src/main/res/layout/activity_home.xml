@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/shark_tank_bg">
+
+    <!-- Shark Tank Logo -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/st"
+        android:contentDescription="Shark Tank Logo"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Shark Tank Game!"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Play as Investor Button -->
+    <Button
+        android:id="@+id/buttonPlayInvestor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💰 Play as Investor"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_margin="10dp"/>
+
+    <!-- Play as Pitcher Button -->
+    <Button
+        android:id="@+id/buttonPlayPitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚀 Play as Pitcher"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_margin="10dp"/>
+
+    <!-- Leaderboard Button -->
+    <Button
+        android:id="@+id/buttonLeaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏆 Leaderboard"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_margin="10dp"/>
+</LinearLayout>
